@@ -1,0 +1,23 @@
+{
+  "name": "jingle-add-stream-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-watch": "^4.3.5",
+    "jingle": "1.7.1",
+    "jingle-media-session": "1.4.1",
+    "localmedia": "^2.0.0",
+    "lodash": "^3.10.1",
+    "stupid-server": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
